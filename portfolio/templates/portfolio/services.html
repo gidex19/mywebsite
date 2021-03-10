@@ -1,0 +1,118 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block header-content %}
+
+<div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 div-bg mb-4 pl-4">
+                    <h3 class="text-white text-capitalize ">Our Services</h3>
+                    <p class="text-capitalize text-white small">We offer diverse software develpoment services that gives your business an
+                    edge over its competitors. These services spans across software development, Project Management, Consultancy,
+                        and Training</p>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-4 svg-div" >
+                    <div class="img mb-4">
+                    <img  src="{% static 'portfolio/images/services_white.svg' %}">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+{% endblock header-content %}
+
+{% block main-content %}
+    <div class="container jumbo mt-4" id="jumbo">
+        <div class="row m-3">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4 " >
+                <div class="img mt-4">
+                    <img class="mt-4" src="{% static 'portfolio/images/mobile_application.svg' %}">
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4" >
+                <div class="mt-4">
+                    <p class="large"><b>Software Development<b></p>
+                    <p class="text-capitalize small p-2">
+                        We Develop top-notch web apps, mobile apps for android and IOS, desktop apps, chatbots, web crawlers and many other custom solutions to suit and cater for your personal and business needs
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row m-3">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4 " >
+                <div class="img mt-4">
+                    <img class="mt-4" src="{% static 'portfolio/images/interview_white.svg' %}">
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4" >
+                <div class="mt-4">
+                    <p class="large p-2"><b>Consultancy<b></p>
+                    <p class="text-capitalize small p-2">
+                        Talk to us and we can help your business scale greater heights by proferring and building Solutions for your business
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="row m-3">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4 " >
+                <div class="img mt-4">
+                    <img class="mt-4" src="{% static 'portfolio/images/data_report.svg' %}">
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4" >
+                <div class="mt-4">
+                    <p class="large p-2"><b>Project Management<b></p>
+                    <p class="text-capitalize small p-2">
+                        We help manage and administrate your business or personal projects. We keep them running and growing continously. We also handle Academic Projects. This could be startup or final Year Projects
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="row m-3">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4 " >
+                <div class="img mt-4">
+                    <img class="mt-4" src="{% static 'portfolio/images/training.svg' %}">
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4" >
+                <div class="mt-4">
+                    <p class="large p-2"><b>Training<b></p>
+                    <p class="text-capitalize small p-2">
+                        Learn to Build Software Applications and manage projects from top developers from our team. You'll get Yourself Up and running for production within a short while.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+{% endblock main-content %}

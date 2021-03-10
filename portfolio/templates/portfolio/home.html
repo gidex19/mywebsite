@@ -1,0 +1,77 @@
+{% extends 'portfolio/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block header-content %}
+
+<div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 div-bg mb-4 pl-4">
+                    <h3 class="text-white text-capitalize ">Create products that Makes A difference</h3>
+                    <p class="text-capitalize text-white small">Let Us Transform Your Ideas To Functional Applications</p>
+                    <a class="btn scale btn-dark bg-btn mt-3 " href ="#">Work With Us</a>
+                    <a class="btn scale btn-dark bg-btn mt-3 ml-2 " href ="#">Portfolio</a>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-4 svg-div" >
+                    <div class="img mb-4">
+                    <img  src="{% static 'portfolio/images/mobile_testing_white.svg' %}">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+{% endblock header-content %}
+
+{% block main-content %}
+    <div class="container jumbo mt-4" id="jumbo">
+        <div class="row m-3">
+            <div class="curved-div m-auto top-space col-xs-12 col-sm-12 col-md-10 col-lg-10 mt-4 bg-light" >
+                <h2 class="mt-2 mb-4 font-weight-bold">Who Are We</h2>
+                <div >
+                    <p class="small">
+                        We are a digital and software development company that is dedicated to transforming businesses and
+                        institutions by leveraging on cutting-edge software technology. Our top-notch products are fashioned
+                        and designed with customer interest in mind. Let's work together so you can fast-track your business
+                        progress and reach customers all around the globe.
+
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4 bg-light" >
+                <div class="img mt-4">
+                    <img class="mt-4" src="{% static 'portfolio/images/work_together_white.svg' %}">
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-4" >
+                <div class="bg-color3">
+                    <p class="large">Why You Should Embrace Software Applications For Your Business</p>
+                    <p class="text-capitalize small">For any Enterprise To Grow and attain world class status in its field of
+                    expertise, such an organisation must harness the power of the internet and online community. Do you know that there
+                    are over 4.6 Billion active users of the internet as at 2020? Those users could actually be your customers.
+
+                    </p>
+
+                    <p class="text-capitalize small">
+                        Our Team of developers are ready to build highly robust web and mobile applications for your personal and business needs. Lets help you create an online presence
+                    </p>
+                    <a href="#" class="btn btn-light btn sm">Start a Project</a>
+                </div>
+
+            </div>
+            <div class="curved-div top-space col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-4 mb-4" >
+            <h3 class="mt-2 mb-4 font-weight-bold">Some Of The Tech Stacks We Use</h3>
+                <div class="mt-4">
+                    <img class="img_cropped mt-4" src="{% static 'portfolio/images/stack_cropped.png' %}">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+{% endblock main-content %}
